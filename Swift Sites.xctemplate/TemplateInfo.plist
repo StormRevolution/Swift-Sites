@@ -148,9 +148,24 @@ std::cout &lt;&lt; &quot;Hello, World!\n&quot;;
 						<string>main.swift:comments</string>
 						<string>main.swift:include</string>
 						<string>main.swift:main:content</string>
+						<string>cgi.swift</string>
+						<string>template.swift</string>
 					</array>
 					<key>Definitions</key>
 					<dict>
+					<key>Info.plist:principalClass</key>
+					<string>&lt;key&gt;NSPrincipalClass&lt;/key&gt;
+&lt;string&gt;___PACKAGENAME___.___PACKAGENAME___&lt;/string&gt;</string>
+						<key>cgi.swift</key>
+						<dict>
+							<key>Path</key>
+							<string>cgi.swift</string>
+						</dict>
+						<key>template.swift</key>
+						<dict>
+							<key>Path</key>
+							<string>template.swift</string>
+						</dict>
 						<key>main.swift:include</key>
 						<string>import Foundation
 </string>
@@ -162,7 +177,9 @@ std::cout &lt;&lt; &quot;Hello, World!\n&quot;;
                             <string></string>
                         </dict>
 						<key>main.swift:main:content</key>
-						<string>print(&quot;Hello, World!&quot;)
+						<string>print(&quot;Content-Type:text/html;charset=gbk\r\n\r\n&quot;)
+						
+print(&quot;Hello, New World!&quot;)
 </string>
 					</dict>
 				</dict>
