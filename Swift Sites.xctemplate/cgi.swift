@@ -1,8 +1,8 @@
 //
-//  cgi.swift
+//  ___PACKAGENAME___.swift
 //
-//  Created by 周文斌 on 16/7/25.
-//  Copyright © 2016年 周文斌. All rights reserved.
+//  Created by ___FULLUSERNAME___ on ___DATE___.
+//___COPYRIGHT___
 //
 
 import AppKit

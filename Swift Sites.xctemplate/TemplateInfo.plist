@@ -62,7 +62,7 @@
 			<key>Description</key>
 			<string>The primary implementation language for the swift-sites</string>
 			<key>Default</key>
-			<string>Objective-C</string>
+			<string>Swift</string>
 			<key>Type</key>
 			<string>popup</string>
             <key>Values</key>
