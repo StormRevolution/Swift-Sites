@@ -132,17 +132,27 @@ std::cout &lt;&lt; &quot;Hello, World!\n&quot;;
 				</dict>
 				<key>Swift</key>
 				<dict>
-                    <key>Project</key>
-                    <dict>
-                        <key>Configurations</key>
-                        <dict>
-                            <key>Debug</key>
-                            <dict>
-                                <key>SWIFT_OPTIMIZATION_LEVEL</key>
-                                <string>-Onone</string>
-                            </dict>
-                        </dict>
-                    </dict>
+					<key>Project</key>
+					<dict>
+						<key>Configurations</key>
+						<dict>
+							<key>Debug</key>
+							<dict>
+								<key>SWIFT_OPTIMIZATION_LEVEL</key>
+								<string>-Onone</string>
+							</dict>
+						</dict>
+					</dict>
+					<key>Targets</key>
+					<array>
+						<dict>
+							<key>SharedSettings</key>
+							<dict>
+								<key>SWIFT_VERSION</key>
+								<string>___DEFAULTTOOLCHAINSWIFTVERSION___</string>
+							</dict>
+						</dict>
+					</array>
 					<key>Nodes</key>
 					<array>
 						<string>main.swift:comments</string>
